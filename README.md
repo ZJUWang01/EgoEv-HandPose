@@ -5,8 +5,7 @@ Official PyTorch implementation of the paper "EgoEV-HandPose: Egocentric 3D Hand
 
 <img width="11482" height="2973" alt="fig1" src="https://github.com/user-attachments/assets/34336cc6-2375-4bff-80cb-ac704ce11ab2" />
 *Fig. 1: Overview of the proposed EgoEV-HandPose framework and the established EgoEVHands dataset. The framework addresses the current challenges of RGB-based or monocular systems, such as lighting sensitivity and depth ambiguity, by introducing EgoEVHands, to the best of our knowledge, the first large-scale, real-world stereo event-based dataset for egocentric hand perception, characterized by its HDR properties, 3D geometric constraints, and bimanual interactions.*
-
-
+<br><br>
 Egocentric 3D hand pose estimation and gesture recognition are essential for immersive augmented/virtual reality, human-computer interaction, and robotics. However, conventional frame-based cameras suffer from motion blur and limited dynamic range, while existing event-based methods are hindered by ego-motion interference, monocular depth ambiguity, and the lack of large-scale real-world stereo datasets.
 
 To overcome these limitations, we propose **EgoEV-HandPose**, an end-to-end framework for joint 3D bimanual pose estimation and gesture recognition from stereo event streams. Central to our approach is **KeypointBEV**, a flexible stereo fusion module that lifts features into a canonical bird's-eye-view space and employs an iterative reprojection-guided refinement loop to progressively resolve depth uncertainty and enforce kinematic consistency.
