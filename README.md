@@ -30,5 +30,5 @@ If you find this work useful, please cite our paper:
 @article{wang2026egoev,
 title={EgoEV-HandPose: Egocentric 3D Hand Pose Estimation and Gesture Recognition with Stereo Event Cameras},
 author={Wang, Luming and Shi, Hao and Zhai, Jiajun and Yang, Kailun and Wang, Kaiwei},
-journal={https://arxiv.org/pdf/2605.12297},
+journal={ https://arxiv.org/pdf/2605.12297 },
 year={2026}}
